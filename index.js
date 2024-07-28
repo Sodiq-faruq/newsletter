@@ -8,8 +8,8 @@ let error = document.querySelector(".error");
 btn.addEventListener("click", function () {
   let input = document.querySelector(".input").value;
   if (input.includes("@")) {
-    container.classList.add("hidden");
-    success.style.display = 'block'
+    container.style.display = 'none';
+    success.style.display = 'block';
     gmail.textContent = input;
     inputs.style.color = "red";
   } else {
