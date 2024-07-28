@@ -141,6 +141,10 @@ button:hover {
   .success h1{
     font-size: 40px;
   }
+  .success p{
+    line-height: 1.5;
+    margin-top: 50px;
+  }
   .success button{
     margin-top: 400px;
   }
