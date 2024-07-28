@@ -132,7 +132,7 @@ button:hover {
     width: 480px;
     height: 900px;
     background-color: white;
-    padding: 20px;
+    padding: 100px 20px;
     line-height: 1.4;
     border-radius: 20px;
     display: none;
