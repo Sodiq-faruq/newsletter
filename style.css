@@ -113,7 +113,8 @@ button:hover {
     align-items: center;
     justify-content: center;
     gap: 0;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .second {
     width: 450px;
