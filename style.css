@@ -106,7 +106,7 @@ button:hover {
 }
 @media (max-width: 480px) {
   .container {
-    width: 490px;
+    width: 450px;
     height: 900px;
     display: flex;
     flex-direction: column-reverse;
@@ -121,7 +121,7 @@ button:hover {
   }
   .first {
     width: 90%;
-    margin-left: 40px;
+    margin-left: 60px;
     align-self: center;
   }
 }
