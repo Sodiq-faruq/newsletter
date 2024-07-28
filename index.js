@@ -11,6 +11,7 @@ btn.addEventListener("click", function () {
     container.classList.add("hidden");
     success.classList.remove("hidden");
     gmail.textContent = input;
+    inputs.style.color = "red";
   } else {
     inputs.style.color = "red";
     error.classList.remove("hidden");
