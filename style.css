@@ -106,7 +106,7 @@ button:hover {
 }
 @media (max-width: 480px) {
   .container {
-    width: 480px;
+    width: 460px;
     height: 900px;
     display: flex;
     flex-direction: column-reverse;
