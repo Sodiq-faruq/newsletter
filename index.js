@@ -9,7 +9,7 @@ btn.addEventListener("click", function () {
   let input = document.querySelector(".input").value;
   if (input.includes("@")) {
     container.classList.add("hidden");
-    success.classList.remove("hidden");
+    success.style.display = 'block'
     gmail.textContent = input;
     inputs.style.color = "red";
   } else {
